@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="text-center text-black" >
 
     <div className="container pt-4">
-    © 2020 Copyright: <span className='credit'>Developed by Mirac.eth</span>
+    © 2023 Copyright: <span className='credit'>Developed by Mirac.eth</span>
 </div>
  
   </footer>
