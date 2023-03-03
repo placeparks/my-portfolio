@@ -191,8 +191,8 @@ margin-left: 30px;
 @media only screen and (max-width: 480px) {
   .welcome-note{
     color: white;
-    margin-top: -590px;
-    font-size: 16px;
+    margin-top: -550px;
+    font-size: 15px;
   }
   .card-page{
     background-color: #2e2a39;
@@ -207,7 +207,7 @@ margin-top: 400px;
     margin-top: 5px;
   }
   .card{
-    width: 320px;
+    width: 270px;
     margin-top: 40px;
     background-color: #a00117;
     color: white;
@@ -218,9 +218,11 @@ margin-top: 400px;
     -moz-transition:all .9s ease; 
     -o-transition:all .9s ease;
     -ms-transition:all .9s ease; 
-margin-left: -3px;
+margin-left: -10px;
   }
-  
+  .card-body{
+    font-size: 14px;
+  }
   .card:hover{
     opacity: 0.7;
     -webkit-transform:scale(1.10);
@@ -242,19 +244,19 @@ margin-left: -3px;
   
   .about-pic{
   height: 200px;
-  margin-top: -1050px;
+  margin-top: -1100px;
   border: 3px solid #de091f;
   border-radius: 100px;
   background-color: #de091f;
   margin-left: 120px;
   }
   .about-note{
-    margin-top: -350px;
+    margin-top: -400px;
     color: white;
     font-size: 15px;
   }
   .footer{
-    margin-top: 70px;
+    margin-top: 0;
     height: 50px;
     background-color: #f8f8f8;
     color: black;
