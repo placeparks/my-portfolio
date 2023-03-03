@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.bg-img{
+  height: 750px;
+  width: 100%;
+}
+.layout{
+  display: inline;
+}
+.welcome-note{
+  color: white;
+  margin-top: -500px;
+}
+.card-layout{
+  margin-top: 370px;
+  margin-left: 30px;
+  display: inline-flex;
+}
+.card-layout1{
+  display: inline-flex;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.card-page{
+  background-color: #2e2a39;
+  border: 7px solid #a00117;
+  border-bottom: #2e2a39;
+  overflow: hidden;
+}
+.card{
+  width: 400px;
+  background-color: #a00117;
+  color: white;
+  border: 5px solid #a00117;
+				border-radius: 1.25rem;
+        overflow:hidden;
+        transition:all .9s ease; 
+  -moz-transition:all .9s ease; 
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease; 
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.card:hover{
+  opacity: 0.7;
+  -webkit-transform:scale(1.10);
+  -moz-transform:scale(1.10);
+  -ms-transform:scale(1.10);
+  -o-transform:scale(1.10);
+  transform:scale(1.10);
+}
+.about-img{
+  width: 100%;
+  height: 750px;
+  opacity: 1;
+}
+.about-pic{
+height: 330px;
+margin-top: -900px;
+border: 3px solid #de091f;
+border-radius: 165px;
+background-color: #de091f;
+}
+.about-note{
+  margin-top: -260px;
+  color: white;
+}
+.ab-img{
+ display: none;
+}
+.footer{
+  margin-top: 100px;
+  height: 50px;
+  background-color: #f8f8f8;
+  color: black;
+}
+.credit{
+  font-size: 18px;
+  font-weight: 600;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px){
+  .welcome-note{
+    color: white;
+    margin-top: -500px;
+    font-size: 18px;
+  }
+  .card-page{
+    background-color: #2e2a39;
+   margin-top: -120px;
+  }
+  .card-layout{
+    display: grid;
+margin-top: 350px;
+  }
+  .card-layout1{
+    display: grid;
+    margin-top: 5px;
+  }
+  .card{
+    width: 450px;
+    margin-top: 90px;
+    background-color: #a00117;
+    color: white;
+    border: 5px solid #a00117;
+          border-radius: 1.25rem;
+          overflow:hidden;
+          transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+margin-left: 25px;
+margin-left: 30px;
+
+  }
+  
+  .card:hover{
+    opacity: 0.7;
+    -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+    transform:scale(1.10);
+  }
+  .about-img{
+    display: none;
+  }
+  
+  .ab-img{
+    display:inline;
+    width: 100%;
+  height: 770px;
+  opacity: 1;
+  }
+  
+  .about-pic{
+  height: 280px;
+  margin-top: -1000px;
+  border: 3px solid #de091f;
+  border-radius: 140px;
+  background-color: #de091f;
+  margin-left: 200px;
+  }
+  .about-note{
+    margin-top: -300px;
+    color: white;
+    font-size: 17px;
+  }
+  .footer{
+    margin-top: 70px;
+    height: 50px;
+    background-color: #f8f8f8;
+    color: black;
+  }
+}
