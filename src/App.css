@@ -113,6 +113,15 @@ background-color: transparent;
   margin-left: 560px;
   margin-top: -100px;
 }
+.card7{
+  margin-left: 80px;
+  margin-top: -120px;
+}
+.card8{
+  margin-left: 1050px;
+  margin-top: -460px;
+}
+.car
 .card-page{
   display: block;
   margin-left: -8px;
@@ -265,6 +274,14 @@ background-color: transparent;
       margin-left: 80px;
       margin-top: 100px;
     }
+	 .card7{
+      margin-left: 80px;
+      margin-top: 100px;
+    }
+    .card8{
+      margin-left: 80px;
+      margin-top: 100px;
+    }
     .card-page{
       display: block;
       margin-left: -8px;
@@ -386,6 +403,14 @@ display: none;
       margin-top: 100px;
     }
     .card6{
+      margin-left: 15px;
+      margin-top: 100px;
+    }
+	.card7{
+      margin-left: 15px;
+      margin-top: 100px;
+    }
+    .card8{
       margin-left: 15px;
       margin-top: 100px;
     }
