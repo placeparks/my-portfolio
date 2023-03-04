@@ -89,7 +89,7 @@ Just upload the file and you will get the CID.</p>
 <div className="card animate__animated animate__backInUp" style={{marginTop:"70px"}}>
 <img src="ww5.JPG" className="card-img-top" alt="..." />
 <div className="card-body">
-<h5 className="card-title">Min with Credit Card</h5>
+<h5 className="card-title">Mint with Credit Card</h5>
 <p className="card-text">Want to give your users the service of buying NFTs with credit card??? Here explore this out.</p>
 <a href="https://gallery-gamma-bay.vercel.app/" target="_blank" rel="noreferrer" className="btn btn-primary">Explore</a>
 </div>
