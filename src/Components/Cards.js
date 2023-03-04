@@ -73,6 +73,29 @@ Just upload the file and you will get the CID.</p>
  </div>
 </div>
 </div>
+
+<div className='card7' data-aos="zoom-in">
+<div className="card animate__animated animate__backInUp" style={{marginTop:"70px"}}>
+<img src="mailchain1.JPG" className="card-img-top" alt="..." />
+<div className="card-body">
+<h5 className="card-title">Mailchain web3 experience</h5>
+<p className="card-text">Notify your NFT claimers after claiming their NFT through MailChain...</p>
+<a href="https://gallery-gamma-bay.vercel.app/" target="_blank" rel="noreferrer" className="btn btn-primary">Explore</a>
+</div>
+</div>
+</div>
+
+<div className='card8' data-aos="zoom-in">
+<div className="card animate__animated animate__backInUp" style={{marginTop:"70px"}}>
+<img src="ww5.JPG" className="card-img-top" alt="..." />
+<div className="card-body">
+<h5 className="card-title">Min with Credit Card</h5>
+<p className="card-text">Want to give your users the service of buying NFTs with credit card??? Here explore this out.</p>
+<a href="https://gallery-gamma-bay.vercel.app/" target="_blank" rel="noreferrer" className="btn btn-primary">Explore</a>
+</div>
+</div>
+</div>
+
 </div>
 
   )
